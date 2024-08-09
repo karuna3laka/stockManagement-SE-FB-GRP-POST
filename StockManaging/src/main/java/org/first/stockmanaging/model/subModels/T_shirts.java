@@ -1,10 +1,12 @@
 package org.first.stockmanaging.model.subModels;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import org.first.stockmanaging.model.Item;
 
 import java.util.Date;
 @Entity
+@DiscriminatorValue("Shirt")
 public class T_shirts extends Item {
     private int GSM_Index;
     private String Color;

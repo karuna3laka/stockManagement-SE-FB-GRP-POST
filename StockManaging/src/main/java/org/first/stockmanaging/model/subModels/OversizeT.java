@@ -1,8 +1,10 @@
 package org.first.stockmanaging.model.subModels;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import org.first.stockmanaging.model.Item;
 @Entity
+@DiscriminatorValue("OversizeT")
 public class OversizeT extends Item {
     private int GSM_Index;
     private String Color;
