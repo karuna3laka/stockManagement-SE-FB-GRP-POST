@@ -1,12 +1,19 @@
-![ClipWindowsGIF](https://github.com/user-attachments/assets/c64b5cf0-704e-4367-978b-be1ff6a92f55)# stockManagement-SE-FB-GRP-POST
+
+(https://github.com/user-attachments/assets/c64b5cf0-704e-4367-978b-be1ff6a92f55)# 
+
+stockManagement-SE-FB-GRP-POST
  I Create this projuct the request some anoynmous user post in software engineers club in facebook.
 i ll post the post screenshot.
 
 Hope someone reading this.i ll post the problems i faced in this project.And Resources to solve.
 
- .....................................................DEADLOCK ................................................
+ ![ClipWindowsGIF]
 
-FOR CLEAR ARTICLE READ MEDIUM I WROTE-->   https://medium.com/@4kavindu2002/what-id-deadlock-1b0348f22be6
+
+ 
+ ....................................................DEADLOCK ................................................
+
+FOR CLEAR ARTICLE READ MEDIUM I WROTE-->👍https://medium.com/@4kavindu2002/what-id-deadlock-1b0348f22be6
 
 
 
