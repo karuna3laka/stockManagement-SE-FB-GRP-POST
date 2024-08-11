@@ -17,7 +17,7 @@ FOR CLEAR ARTICLE READ MEDIUM I WROTE-->👍https://medium.com/@4kavindu2002/wha
 
 
 WHAT ID DEADLOCK?
-HEY I AM KARUNATHILAKA...! POST THINGS I LEARNED.
+ POST THINGS I LEARNED.
 
 WHAT IS DEADLOCK a:
 This happen when two process sharing the same resources and effectively prevent each other from accessing the resources.
