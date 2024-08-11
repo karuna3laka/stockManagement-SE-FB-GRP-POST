@@ -1,5 +1,4 @@
 
-(https://github.com/user-attachments/assets/c64b5cf0-704e-4367-978b-be1ff6a92f55)# 
 
 stockManagement-SE-FB-GRP-POST
  I Create this projuct the request some anoynmous user post in software engineers club in facebook.
@@ -7,7 +6,8 @@ i ll post the post screenshot.
 
 Hope someone reading this.i ll post the problems i faced in this project.And Resources to solve.
 
- ![ClipWindowsGIF]
+
+![Uploading YouOkayDeadlockGIF.gif…]()
 
 
  
