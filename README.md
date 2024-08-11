@@ -6,8 +6,7 @@ i ll post the post screenshot.
 
 Hope someone reading this.i ll post the problems i faced in this project.And Resources to solve.
 
-
-![Uploading YouOkayDeadlockGIF.gif…]()
+![Uploading ClipWindowsGIF.gif…]()
 
 
  
