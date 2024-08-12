@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/StockManaging/StockManaging.iml" filepath="$PROJECT_DIR$/StockManaging/StockManaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/stockManagement-SE-FB-GRP-POST.iml" filepath="$PROJECT_DIR$/.idea/stockManagement-SE-FB-GRP-POST.iml" />
     </modules>
   </component>
