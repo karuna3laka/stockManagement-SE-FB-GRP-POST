@@ -24,9 +24,8 @@ public class items_Controller {
         List<Item> items = service.getAllItems();
         System.out.println("Items retrieved: " + items);
         return items;
-        //jjjjjjjjjjj
-    }
 
+    }
     @GetMapping("/items/croptop")
     public List<Croptop> getFilteredByCroptop() {
         return service.getCroptopItems();

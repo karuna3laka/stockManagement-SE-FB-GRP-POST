@@ -44,4 +44,9 @@ public class items_Service {
                 .map(item -> (T_shirts) item)
                 .collect(Collectors.toList());
     }
+
+    public void addItems(Item item){
+        Item.add(item);
+
+    }
 }
