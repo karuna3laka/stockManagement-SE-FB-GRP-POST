@@ -1,6 +1,6 @@
 package org.first.stockmanagementservice.dto;
 
-public class ResponseDto<T>
+public class ResponseDto<T> //The <T> is a type parameter that allows the class to be used with different types of objects.
 {
 	private int status;
 	private T data;
