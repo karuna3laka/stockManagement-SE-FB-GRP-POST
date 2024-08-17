@@ -72,7 +72,8 @@ public class TShirtService implements ITShirtService
 			{
 				return new ResponseDto<>( IConstants.RESPONSE_STATUS_ERROR, environment.getProperty( "tShirt.seller.name.missing" ) );
 			}
-			//TODO: Do other validations (Ex: null check for mandatory fields)
+
+			//TODO: Do other validations (Ex: null check for mandatory filds)
 
 			tShirtRepository.save( tShirt );
 			return new ResponseDto<>( IConstants.RESPONSE_STATUS_OK, tShirt, environment.getProperty( "tShirt.save.success" ) );

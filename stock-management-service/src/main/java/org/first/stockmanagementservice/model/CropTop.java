@@ -3,10 +3,12 @@ package org.first.stockmanagementservice.model;
 import jakarta.persistence.Column;
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
+import lombok.Data;
 
 import java.time.LocalDate;
 
 @Entity
+@Data
 @DiscriminatorValue("CROP_TOP")
 public class CropTop extends Item
 {
