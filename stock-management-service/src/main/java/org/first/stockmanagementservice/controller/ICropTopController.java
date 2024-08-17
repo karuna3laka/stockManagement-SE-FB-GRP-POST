@@ -7,16 +7,18 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
 @RequestMapping("croptops")
 @CrossOrigin(origins = { "*" })
 public interface ICropTopController
 {
-    @RequestMapping(method = RequestMethod.GET, path = "", produces = "application/json")
+
+    @GetMapping("/croptops")
     ResponseEntity<ResponseDto<List<CropTop>>> getAllCropTops();
 
-    @RequestMapping(method = RequestMethod.GET, path = "/{id}", produces = "application/json")
+    @GetMapping("/croptops/{id}")
     ResponseEntity<ResponseDto<CropTop>> getCropTopById(@PathVariable long id);
 
-    @RequestMapping(method = RequestMethod.POST, path = "", produces = "application/json")
+    @PostMapping("/croptops"
     ResponseEntity<ResponseDto<CropTop>> saveCropTop(@RequestBody CropTop cropTop);
 }
