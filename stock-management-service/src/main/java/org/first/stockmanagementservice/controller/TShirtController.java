@@ -4,14 +4,9 @@ import org.first.stockmanagementservice.constants.IConstants;
 import org.first.stockmanagementservice.dto.ResponseDto;
 import org.first.stockmanagementservice.model.TShirt;
 import org.first.stockmanagementservice.service.TShirtService;
-import org.first.stockmanagementservice.webSocket.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
-import org.springframework.messaging.handler.annotation.MessageMapping;
-import org.springframework.messaging.handler.annotation.Payload;
-import org.springframework.messaging.handler.annotation.SendTo;
-import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -52,15 +47,4 @@ public class TShirtController implements ITShirtController
 		}
 		return ResponseEntity.ok( tShirtService.saveTShirt( tShirt ) );
 	}
-
-    @org.springframework.stereotype.Controller
-    public static class Controller {
-
-        @Autowired
-        SimpMessagingTemplate simpMessagingTemplate;
-
-
-
-
-    }
 }

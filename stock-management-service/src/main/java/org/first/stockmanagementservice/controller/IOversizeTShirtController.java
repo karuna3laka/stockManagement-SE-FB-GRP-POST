@@ -7,16 +7,16 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
 @RequestMapping("oversize-tshirts")
 @CrossOrigin(origins = { "*" })
-public interface IOversizeTShirtController
-{
-    @RequestMapping(method = RequestMethod.GET, path = "", produces = "application/json")
+public interface IOversizeTShirtController{
+    @GetMapping("/oversize-tshirts")
     ResponseEntity<ResponseDto<List<OversizeTShirt>>> getAllOversizeTShirts();
 
-    @RequestMapping(method = RequestMethod.GET, path = "/{id}", produces = "application/json")
+    @GetMapping("/oversize-tshirts/{id}")
     ResponseEntity<ResponseDto<OversizeTShirt>> getOversizeTShirtById(@PathVariable long id);
 
-    @RequestMapping(method = RequestMethod.POST, path = "", produces = "application/json")
+    @PostMapping("/oversize-tshirts")
     ResponseEntity<ResponseDto<OversizeTShirt>> saveOversizeTShirt(@RequestBody OversizeTShirt oversizeTShirt);
 }
